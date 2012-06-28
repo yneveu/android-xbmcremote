@@ -14,6 +14,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
+import org.xbmc.android.remote.R;
 
 /**
  * Abstracts a mechanism for determining an appropriate time to load images into

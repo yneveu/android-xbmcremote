@@ -1,5 +1,7 @@
 package org.codehaus.jackson.annotate;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Enumeration used to define kinds of methods that annotations like
  * {@link JsonAutoDetect} apply to.

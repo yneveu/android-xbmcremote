@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.introspect;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
+import org.xbmc.android.remote.R;
 
 /**
  * Intermediate base class that encapsulates features that

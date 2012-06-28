@@ -24,6 +24,7 @@ package org.xbmc.android.remote.business;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.ClientFactory;
 import org.xbmc.android.util.Crc32;
 import org.xbmc.api.business.DataResponse;

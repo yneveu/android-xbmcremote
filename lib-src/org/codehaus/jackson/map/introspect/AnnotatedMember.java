@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.introspect;
 import java.lang.reflect.Member;
 
 import org.codehaus.jackson.map.util.ClassUtil;
+import org.xbmc.android.remote.R;
 
 /**
  * Intermediate base class for annotated entities that are members of

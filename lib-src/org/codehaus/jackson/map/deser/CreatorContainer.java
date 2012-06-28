@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.deser;
 import org.codehaus.jackson.map.introspect.AnnotatedConstructor;
 import org.codehaus.jackson.map.introspect.AnnotatedMethod;
 import org.codehaus.jackson.map.util.ClassUtil;
+import org.xbmc.android.remote.R;
 
 /**
  * Container for set of Creators (constructors, factory methods)

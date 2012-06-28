@@ -1,6 +1,7 @@
 package org.codehaus.jackson.util;
 
 import java.util.Arrays;
+import org.xbmc.android.remote.R;
 
 public final class CharTypes
 {

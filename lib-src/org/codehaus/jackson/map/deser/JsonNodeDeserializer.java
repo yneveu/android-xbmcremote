@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.node.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Deserializer that can build instances of {@link JsonNode} from any

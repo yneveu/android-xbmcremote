@@ -2,6 +2,7 @@ package org.codehaus.jackson.node;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class that specifies methods for getting access to

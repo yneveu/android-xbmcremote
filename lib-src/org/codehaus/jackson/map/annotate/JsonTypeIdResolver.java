@@ -7,6 +7,7 @@ import java.lang.annotation.Target;
 
 import org.codehaus.jackson.annotate.JacksonAnnotation;
 import org.codehaus.jackson.map.jsontype.TypeIdResolver;
+import org.xbmc.android.remote.R;
 
 /**
  * Annotation that can be used to plug a custom type identifier handler

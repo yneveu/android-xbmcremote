@@ -9,6 +9,7 @@ import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.map.util.Provider;
+import org.xbmc.android.remote.R;
 
 /**
  * Class used for namespacing and to contain serializers for misc

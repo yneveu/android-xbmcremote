@@ -6,6 +6,7 @@ import java.util.*;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.map.type.ClassKey;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Serializer factory implementation that allows for configuring

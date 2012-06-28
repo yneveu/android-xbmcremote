@@ -3,6 +3,7 @@ package org.codehaus.jackson.sym;
 import java.util.Arrays;
 
 import org.codehaus.jackson.util.InternCache;
+import org.xbmc.android.remote.R;
 
 /**
  * This class is a kind of specialized type-safe Map, from char array to

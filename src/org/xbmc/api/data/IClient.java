@@ -21,6 +21,7 @@
 
 package org.xbmc.api.data;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.Host;
 
 

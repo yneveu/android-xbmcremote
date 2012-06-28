@@ -1,5 +1,7 @@
 package org.codehaus.jackson.map.jsontype;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Simple container class for types with optional logical name, used
  * as external identifier

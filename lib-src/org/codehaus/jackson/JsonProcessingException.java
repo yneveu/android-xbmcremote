@@ -1,5 +1,7 @@
 package org.codehaus.jackson;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Intermediate base class for all problems encountered when
  * processing (parsing, generating) JSON content

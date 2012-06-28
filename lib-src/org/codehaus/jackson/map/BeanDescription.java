@@ -5,6 +5,7 @@ import java.util.*;
 import org.codehaus.jackson.map.introspect.AnnotatedMethod;
 import org.codehaus.jackson.map.introspect.VisibilityChecker;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Basic container for information gathered by {@link ClassIntrospector} to

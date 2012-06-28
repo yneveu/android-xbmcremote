@@ -24,6 +24,7 @@ package org.xbmc.android.remote.business;
 import java.lang.ref.SoftReference;
 import java.util.HashMap;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.business.DataResponse;
 import org.xbmc.api.object.ICoverArt;
 import org.xbmc.api.presentation.INotifiableController;

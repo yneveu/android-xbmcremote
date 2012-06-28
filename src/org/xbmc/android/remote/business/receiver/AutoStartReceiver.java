@@ -21,6 +21,7 @@
 
 package org.xbmc.android.remote.business.receiver;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.presentation.activity.HomeActivity;
 
 import android.content.BroadcastReceiver;

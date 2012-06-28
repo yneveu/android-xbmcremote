@@ -22,6 +22,7 @@
 package org.xbmc.api.type;
 
 import android.content.res.Resources;
+import org.xbmc.android.remote.R;
 
 /**
  * Defines a thumb size. Sizes are:

@@ -6,6 +6,7 @@ import org.codehaus.jackson.annotate.JsonAutoDetect;
 import org.codehaus.jackson.map.introspect.VisibilityChecker;
 import org.codehaus.jackson.map.jsontype.TypeResolverBuilder;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface that defines functionality accessible through both

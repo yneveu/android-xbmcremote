@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 import org.codehaus.jackson.JsonParser;
+import org.xbmc.android.remote.R;
 
 /**
  * Intermediate value node used for numeric nodes.

@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map.util;
 
 import java.util.*;
+import org.xbmc.android.remote.R;
 
 /**
 * Simple helper class used for decoupling instantiation of

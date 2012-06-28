@@ -20,6 +20,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 import org.codehaus.jackson.type.TypeReference;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class that defines public API for reading JSON content.

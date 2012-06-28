@@ -21,6 +21,8 @@
 
 package org.xbmc.eventclient;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Remote control and keyboard strings, taken from xbmc/ButtonTranslator.cpp
  * 

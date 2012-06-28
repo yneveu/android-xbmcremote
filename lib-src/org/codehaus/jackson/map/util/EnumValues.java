@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.util;
 import java.util.*;
 
 import org.codehaus.jackson.map.*;
+import org.xbmc.android.remote.R;
 
 public final class EnumValues
 {

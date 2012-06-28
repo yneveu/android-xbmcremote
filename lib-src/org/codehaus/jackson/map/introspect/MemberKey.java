@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.introspect;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class needed to be able to efficiently access class

@@ -1,6 +1,7 @@
 package org.codehaus.jackson.type;
 
 import java.lang.reflect.Modifier;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class for type token classes used both to contain information

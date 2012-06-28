@@ -99,7 +99,7 @@ public class MusicArtistActivity extends SlidingTabActivity  {
 	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		menu.clear();
-		menu.add(0, MENU_NOW_PLAYING, 0, "Now playing").setIcon(R.drawable.menu_nowplaying);
+		menu.add(0, MENU_NOW_PLAYING, 0, R.string.now_playing).setIcon(R.drawable.menu_nowplaying);
 		switch (mTabHost.getCurrentTab()) {
 			case 0:
 				mAlbumController.onCreateOptionsMenu(menu);

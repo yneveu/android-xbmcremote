@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map.type;
 
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 public abstract class TypeBase extends JavaType
 {

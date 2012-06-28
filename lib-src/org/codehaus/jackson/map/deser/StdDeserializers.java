@@ -6,6 +6,7 @@ import org.codehaus.jackson.map.JsonDeserializer;
 import org.codehaus.jackson.map.type.*;
 import org.codehaus.jackson.map.util.Provider;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class used to contain simple/well-known deserializers for core JDK types

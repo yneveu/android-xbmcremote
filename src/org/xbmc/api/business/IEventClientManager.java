@@ -1,6 +1,7 @@
 package org.xbmc.api.business;
 
 import java.io.IOException;
+import org.xbmc.android.remote.R;
 
 /**
  * XBMC Event Client Class

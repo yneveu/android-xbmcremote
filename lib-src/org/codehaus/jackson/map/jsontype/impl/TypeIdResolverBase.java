@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.jsontype.impl;
 
 import org.codehaus.jackson.map.jsontype.TypeIdResolver;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 public abstract class TypeIdResolverBase
     implements TypeIdResolver

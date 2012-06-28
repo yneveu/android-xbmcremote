@@ -2,6 +2,7 @@ package org.xbmc.api.object;
 
 import java.util.List;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.Crc32;
 import org.xbmc.api.type.MediaType;
 

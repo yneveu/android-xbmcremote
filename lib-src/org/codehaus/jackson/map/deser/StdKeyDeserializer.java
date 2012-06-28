@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class for simple key deserializers.

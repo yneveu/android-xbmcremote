@@ -21,6 +21,8 @@
 
 package org.xbmc.api.data;
 
+import org.xbmc.android.remote.R;
+
 
 
 /**

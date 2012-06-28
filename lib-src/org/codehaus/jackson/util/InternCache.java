@@ -2,6 +2,7 @@ package org.codehaus.jackson.util;
 
 import java.util.Map;
 import java.util.LinkedHashMap;
+import org.xbmc.android.remote.R;
 
 /**
  * Singleton class that adds a simple first-level cache in front of

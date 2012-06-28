@@ -10,6 +10,7 @@ import org.codehaus.jackson.map.util.EnumValues;
 import org.codehaus.jackson.node.ObjectNode;
 import org.codehaus.jackson.node.ArrayNode;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Standard serializer used for all enum types.

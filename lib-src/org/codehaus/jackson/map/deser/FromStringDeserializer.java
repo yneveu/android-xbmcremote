@@ -11,6 +11,7 @@ import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.JsonToken;
 import org.codehaus.jackson.map.DeserializationContext;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class for simple deserializer which only accept Json String

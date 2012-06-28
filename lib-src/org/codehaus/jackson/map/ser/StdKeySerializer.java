@@ -8,6 +8,7 @@ import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.map.JsonMappingException;
+import org.xbmc.android.remote.R;
 
 /**
  * Specialized serializer that can be used as the generic key

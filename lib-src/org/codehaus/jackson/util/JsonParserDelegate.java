@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class that implements

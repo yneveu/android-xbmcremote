@@ -12,6 +12,7 @@ import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.node.ObjectNode;
 import org.codehaus.jackson.schema.JsonSerializableSchema;
 import org.codehaus.jackson.util.TokenBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * Container class for serializers used for handling standard JDK-provided

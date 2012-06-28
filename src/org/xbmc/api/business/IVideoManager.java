@@ -23,6 +23,7 @@ package org.xbmc.api.business;
 
 import java.util.ArrayList;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.Actor;
 import org.xbmc.api.object.Genre;
 import org.xbmc.api.object.Movie;

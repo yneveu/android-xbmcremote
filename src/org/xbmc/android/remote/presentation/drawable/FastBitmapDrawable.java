@@ -21,6 +21,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.PixelFormat;
 import android.graphics.ColorFilter;
+import org.xbmc.android.remote.R;
 
 public class FastBitmapDrawable extends Drawable {
     private final Bitmap mBitmap;

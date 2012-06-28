@@ -20,6 +20,7 @@ import org.codehaus.jackson.map.type.*;
 import org.codehaus.jackson.map.util.ClassUtil;
 import org.codehaus.jackson.map.util.SubTypeHelper;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Abstract factory base class that can provide deserializers for standard

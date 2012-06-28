@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.SerializerProvider;
+import org.xbmc.android.remote.R;
 
 /**
  * This singleton value class is used to contain explicit JSON null

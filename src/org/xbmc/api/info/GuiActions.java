@@ -21,6 +21,8 @@
 
 package org.xbmc.api.info;
 
+import org.xbmc.android.remote.R;
+
 public abstract class GuiActions {
 	
 	public static final int ACTION_NONE                  =  0;

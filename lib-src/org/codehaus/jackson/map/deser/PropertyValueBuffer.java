@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.deser;
 
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.map.DeserializationContext;
+import org.xbmc.android.remote.R;
 
 /**
  * Simple container used for temporarily buffering a set of

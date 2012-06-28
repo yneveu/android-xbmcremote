@@ -3,3 +3,5 @@
  * of symbols in JSON (field names in Objects)
  */
 package org.codehaus.jackson.sym;
+import org.xbmc.android.remote.R;
+

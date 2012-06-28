@@ -8,6 +8,7 @@
 
 package org.xbmc.android.widget;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.presentation.widget.AbstractItemView;
 import org.xbmc.android.widget.IdleListDetector.OnListIdleListener;
 import org.xbmc.api.object.ICoverArt;

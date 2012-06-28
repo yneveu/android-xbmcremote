@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.introspect;
 import org.codehaus.jackson.annotate.JsonAutoDetect;
 import org.codehaus.jackson.annotate.JsonAutoDetect.Visibility;
 import org.codehaus.jackson.annotate.JsonMethod;
+import org.xbmc.android.remote.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Member;

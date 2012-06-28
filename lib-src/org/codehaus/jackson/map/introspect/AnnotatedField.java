@@ -4,6 +4,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.Member;
 import java.lang.reflect.Type;
+import org.xbmc.android.remote.R;
 
 /**
  * Object that represents non-static (and usually non-transient/volatile)

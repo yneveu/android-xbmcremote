@@ -25,6 +25,7 @@ import org.codehaus.jackson.impl.WriterBasedGenerator;
 import org.codehaus.jackson.sym.BytesToNameCanonicalizer;
 import org.codehaus.jackson.sym.CharsToNameCanonicalizer;
 import org.codehaus.jackson.util.BufferRecycler;
+import org.xbmc.android.remote.R;
 
 /**
  * The main factory class of Jackson package, used to configure and

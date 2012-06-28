@@ -5,6 +5,7 @@ import java.util.*;
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.map.type.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Deserializer factory implementation that allows for configuring

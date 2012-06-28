@@ -21,6 +21,8 @@
 
 package org.xbmc.android.widget.gestureremote;
 
+import org.xbmc.android.remote.R;
+
 public interface IGestureListener {
 	public void onVerticalMove(int zoneIndex);
 	public void onHorizontalMove(int zoneIndex);

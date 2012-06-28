@@ -14,6 +14,7 @@ import org.codehaus.jackson.node.JsonNodeFactory;
 import org.codehaus.jackson.node.ObjectNode;
 import org.codehaus.jackson.schema.JsonSchema;
 import org.codehaus.jackson.schema.SchemaAware;
+import org.xbmc.android.remote.R;
 
 /**
  * Specialized serializer for {@link EnumMap}s. Somewhat tricky to

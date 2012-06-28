@@ -23,6 +23,7 @@ package org.xbmc.httpapi.client;
 
 import java.util.HashMap;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.data.IControlClient.ICurrentlyPlaying;
 import org.xbmc.api.info.PlayStatus;
 import org.xbmc.api.type.MediaType;

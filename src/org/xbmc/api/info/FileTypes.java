@@ -21,6 +21,8 @@
 
 package org.xbmc.api.info;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Defines known media file types and some helper methods.
  * 

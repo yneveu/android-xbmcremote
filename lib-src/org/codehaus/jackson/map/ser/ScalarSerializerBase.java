@@ -6,6 +6,7 @@ import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.map.TypeSerializer;
+import org.xbmc.android.remote.R;
 
 public abstract class ScalarSerializerBase<T>
     extends SerializerBase<T>

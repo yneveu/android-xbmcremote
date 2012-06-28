@@ -21,6 +21,8 @@
 
 package org.xbmc.api.info;
 
+import org.xbmc.android.remote.R;
+
 public class MusicInfo {
 	public static final int MUSICPLAYER_TITLE           = 200;
 	public static final int MUSICPLAYER_ALBUM           = 201;

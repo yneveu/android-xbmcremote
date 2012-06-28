@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.JsonProcessingException;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface that is to replace {@link JsonSerializable} to

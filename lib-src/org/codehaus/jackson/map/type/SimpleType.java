@@ -9,6 +9,7 @@ import java.lang.reflect.TypeVariable;
 import java.util.*;
 
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Simple types are defined as anything other than one of recognized

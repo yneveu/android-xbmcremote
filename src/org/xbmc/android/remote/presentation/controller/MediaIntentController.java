@@ -24,6 +24,7 @@ package org.xbmc.android.remote.presentation.controller;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.R.drawable;
 import org.xbmc.android.remote.business.ManagerFactory;
 import org.xbmc.android.remote.presentation.activity.MediaIntentActivity;

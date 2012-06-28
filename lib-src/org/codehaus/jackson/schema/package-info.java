@@ -3,3 +3,5 @@
  * to generate schemas using serialization part of data mapping)
  */
 package org.codehaus.jackson.schema;
+import org.xbmc.android.remote.R;
+

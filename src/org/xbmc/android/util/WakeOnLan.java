@@ -24,6 +24,7 @@ package org.xbmc.android.util;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
+import org.xbmc.android.remote.R;
 
 /**
  * The WoL implementation

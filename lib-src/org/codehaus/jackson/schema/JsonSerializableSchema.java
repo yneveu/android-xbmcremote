@@ -6,6 +6,7 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
 import org.codehaus.jackson.annotate.JacksonAnnotation;
+import org.xbmc.android.remote.R;
 
 /**
  * Annotation that can be used to define JSON Schema definition for

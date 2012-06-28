@@ -24,6 +24,7 @@ package org.xbmc.httpapi.client;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.business.INotifiableManager;
 import org.xbmc.api.data.ITvShowClient;
 import org.xbmc.api.data.IControlClient.ICurrentlyPlaying;

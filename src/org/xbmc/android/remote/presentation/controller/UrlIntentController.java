@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.R.drawable;
 import org.xbmc.android.remote.business.ManagerFactory;
 import org.xbmc.android.remote.presentation.activity.NowPlayingActivity;

@@ -6,6 +6,7 @@ import java.util.Date;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.map.DeserializationContext;
+import org.xbmc.android.remote.R;
 
 /**
  * Simple deserializer for handling {@link java.util.Date} values.

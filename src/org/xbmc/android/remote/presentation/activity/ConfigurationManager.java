@@ -28,6 +28,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.media.AudioManager;
 import android.preference.PreferenceManager;
+import org.xbmc.android.remote.R;
 
 class ConfigurationManager implements OnSharedPreferenceChangeListener {
 

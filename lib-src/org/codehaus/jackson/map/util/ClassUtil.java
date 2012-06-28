@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.util;
 
 import java.lang.reflect.*;
 import java.util.*;
+import org.xbmc.android.remote.R;
 
 public final class ClassUtil
 {

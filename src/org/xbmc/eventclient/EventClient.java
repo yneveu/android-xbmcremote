@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.InetAddress;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.data.IEventClient;
 
 import android.util.Log;

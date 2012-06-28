@@ -7,6 +7,7 @@ import java.lang.annotation.Target;
 
 import org.codehaus.jackson.annotate.JacksonAnnotation;
 import org.codehaus.jackson.map.JsonSerializer;
+import org.xbmc.android.remote.R;
 
 /**
  * Annotation used for configuring serialization aspects, by attaching

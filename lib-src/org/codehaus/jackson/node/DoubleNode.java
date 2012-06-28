@@ -7,6 +7,7 @@ import java.math.BigInteger;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.io.NumberOutput;
 import org.codehaus.jackson.map.SerializerProvider;
+import org.xbmc.android.remote.R;
 
 /**
  * Numeric node that contains 64-bit ("double precision")

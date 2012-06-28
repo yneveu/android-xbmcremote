@@ -21,6 +21,7 @@
 
 package org.xbmc.jsonrpc;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.Host;
 import org.xbmc.jsonrpc.client.InfoClient;
 import org.xbmc.jsonrpc.client.MusicClient;

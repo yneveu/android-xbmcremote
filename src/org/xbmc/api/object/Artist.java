@@ -23,6 +23,7 @@ package org.xbmc.api.object;
 
 import java.io.Serializable;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.Crc32;
 import org.xbmc.api.type.MediaType;
 

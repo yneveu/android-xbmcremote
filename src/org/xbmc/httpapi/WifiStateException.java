@@ -1,5 +1,7 @@
 package org.xbmc.httpapi;
 
+import org.xbmc.android.remote.R;
+
 public class WifiStateException extends Exception {
 
 	/**

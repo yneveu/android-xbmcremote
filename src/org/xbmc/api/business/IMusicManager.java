@@ -23,6 +23,7 @@ package org.xbmc.api.business;
 
 import java.util.ArrayList;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.Album;
 import org.xbmc.api.object.Artist;
 import org.xbmc.api.object.Genre;

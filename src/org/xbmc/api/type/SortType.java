@@ -21,6 +21,8 @@
 
 package org.xbmc.api.type;
 
+import org.xbmc.android.remote.R;
+
 public abstract class SortType {
 	
 	public static final String ORDER_ASC = "ASC";

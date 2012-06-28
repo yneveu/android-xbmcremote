@@ -12,6 +12,7 @@ import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.JsonStreamContext;
 import org.codehaus.jackson.ObjectCodec;
+import org.xbmc.android.remote.R;
 
 public class JsonGeneratorDelegate extends JsonGenerator
 {

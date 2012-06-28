@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map;
 
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class used to introspect features of POJO value classes

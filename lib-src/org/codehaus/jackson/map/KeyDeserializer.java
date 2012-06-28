@@ -3,6 +3,7 @@ package org.codehaus.jackson.map;
 import java.io.IOException;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Abstract class that defines API used for deserializing Json content

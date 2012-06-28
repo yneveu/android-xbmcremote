@@ -4,6 +4,7 @@ import java.net.URLDecoder;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.info.FileTypes;
 import org.xbmc.api.type.MediaType;
 import org.xbmc.httpapi.Connection;

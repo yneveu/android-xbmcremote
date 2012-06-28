@@ -21,6 +21,7 @@
 
 package org.xbmc.httpapi;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.Host;
 import org.xbmc.httpapi.client.ControlClient;
 import org.xbmc.httpapi.client.InfoClient;

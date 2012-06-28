@@ -1,6 +1,7 @@
 package org.xbmc.android.util;
 
 import java.io.ByteArrayInputStream;
+import org.xbmc.android.remote.R;
 
 import android.content.Context;
 import android.graphics.Bitmap;

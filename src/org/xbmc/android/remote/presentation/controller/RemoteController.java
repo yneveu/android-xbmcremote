@@ -334,9 +334,9 @@ public class RemoteController extends AbstractController implements INotifiableC
 	}
 	
 	public boolean onCreateOptionsMenu(Menu menu) {
-		menu.add(0, MENU_NOW_PLAYING, 0, "Now playing").setIcon(R.drawable.menu_nowplaying);
+		menu.add(0, MENU_NOW_PLAYING, 0, R.string.now_playing).setIcon(R.drawable.menu_nowplaying);
 		menu.add(0, MENU_SWITCH_GESTURE, 0, "Gesture mode").setIcon(R.drawable.menu_gesture_mode);
-		menu.add(0, MENU_ENTER_TEXT, 0, "Text Entry").setIcon(R.drawable.menu_text_entry);
+		menu.add(0, MENU_ENTER_TEXT, 0, R.string.text_entry).setIcon(R.drawable.menu_text_entry);
 		menu.add(0, MENU_XBMC_EXIT, 0, "Exit XBMC").setIcon(R.drawable.menu_xbmc_exit);
 		menu.add(0, MENU_XBMC_S, 0, "Press \"S\"").setIcon(R.drawable.menu_xbmc_s);
 		return true;
@@ -349,7 +349,7 @@ public class RemoteController extends AbstractController implements INotifiableC
 		case DIALOG_SENDTEXT:
 			dialog = new Dialog(context);
 			dialog.setContentView(R.layout.sendtext);
-			dialog.setTitle("Text Entry");
+			dialog.setTitle(R.string.text_entry);
 			Button sendbutton = (Button) dialog.findViewById(R.id.sendtext_button_send);
 			sendbutton.setOnClickListener(new OnClickListener() {
 				public void onClick(View v) {

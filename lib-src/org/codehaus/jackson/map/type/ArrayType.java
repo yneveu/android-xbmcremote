@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.type;
 import java.lang.reflect.Array;
 
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Array types represent Java arrays, both primitive and object valued.

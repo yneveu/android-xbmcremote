@@ -28,3 +28,5 @@
  */
 
 package org.codehaus.jackson;
+import org.xbmc.android.remote.R;
+

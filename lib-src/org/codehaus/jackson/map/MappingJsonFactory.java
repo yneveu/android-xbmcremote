@@ -15,6 +15,7 @@
 package org.codehaus.jackson.map;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Sub-class of {@link JsonFactory} that will create a proper

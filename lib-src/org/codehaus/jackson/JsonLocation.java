@@ -2,6 +2,7 @@ package org.codehaus.jackson;
 
 import org.codehaus.jackson.annotate.JsonCreator;
 import org.codehaus.jackson.annotate.JsonProperty;
+import org.xbmc.android.remote.R;
 
 /**
  * Object that encapsulates Location information used for reporting

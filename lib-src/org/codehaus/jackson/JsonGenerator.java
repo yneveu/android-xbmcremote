@@ -17,6 +17,7 @@ package org.codehaus.jackson;
 import java.io.*;
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class that defines public API for writing Json content.

@@ -21,6 +21,8 @@
 
 package org.xbmc.api.info;
 
+import org.xbmc.android.remote.R;
+
 public class SystemInfo {
 	public static final int SYSTEM_TEMPERATURE_UNITS    = 106;
 	public static final int SYSTEM_PROGRESS_BAR         = 107;

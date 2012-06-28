@@ -4,6 +4,7 @@ import java.io.*;
 
 import org.codehaus.jackson.util.BufferRecycler;
 import org.codehaus.jackson.util.TextBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * Efficient alternative to {@link StringWriter}, based on using segmented

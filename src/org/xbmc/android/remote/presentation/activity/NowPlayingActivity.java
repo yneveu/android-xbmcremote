@@ -123,7 +123,7 @@ public class NowPlayingActivity extends Activity {
 		topFrame.setForeground(null);
 
 		// set titlebar text
-		((TextView) findViewById(R.id.titlebar_text)).setText("Now playing");
+		((TextView) findViewById(R.id.titlebar_text)).setText(R.string.now_playing);
 
 		mConfigurationManager = ConfigurationManager.getInstance(this);
 

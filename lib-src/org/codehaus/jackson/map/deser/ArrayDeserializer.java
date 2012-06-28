@@ -9,6 +9,7 @@ import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.map.type.ArrayType;
 import org.codehaus.jackson.map.util.ObjectBuffer;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Basic serializer that can serialize non-primitive arrays.

@@ -12,6 +12,7 @@ import org.codehaus.jackson.node.ObjectNode;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.map.type.ArrayType;
+import org.xbmc.android.remote.R;
 
 /**
  * Dummy container class to group standard array serializer implementations.

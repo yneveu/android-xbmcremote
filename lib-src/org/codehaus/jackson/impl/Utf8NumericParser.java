@@ -5,6 +5,7 @@ import java.io.*;
 import org.codehaus.jackson.io.IOContext;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.JsonToken;
+import org.xbmc.android.remote.R;
 
 /**
  * Intermediate class that implements handling of numeric parsing,

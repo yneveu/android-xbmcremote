@@ -1,5 +1,7 @@
 package org.codehaus.jackson;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Exception type for exceptions during JSON writing, such as trying
  * to output  content in wrong context (non-matching end-array or end-object,

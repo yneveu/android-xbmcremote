@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.introspect;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
 import java.lang.reflect.Type;
+import org.xbmc.android.remote.R;
 
 /**
  * Object that represents method parameters, mostly so that associated

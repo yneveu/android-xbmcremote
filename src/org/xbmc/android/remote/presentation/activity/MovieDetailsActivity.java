@@ -205,7 +205,7 @@ public class MovieDetailsActivity extends Activity {
 							final View view = inflater.inflate(R.layout.actor_item, null);
 							
 							((TextView)view.findViewById(R.id.actor_name)).setText(actor.name);
-							((TextView)view.findViewById(R.id.actor_role)).setText("as " + actor.role);
+							((TextView)view.findViewById(R.id.actor_role)).setText(R.string.actor_role_as + actor.role);
 							ImageButton img = ((ImageButton)view.findViewById(R.id.actor_image));
 							mVideoManager.getCover(new DataResponse<Bitmap>() {
 								public void run() {

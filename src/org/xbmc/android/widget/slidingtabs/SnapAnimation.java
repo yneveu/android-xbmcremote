@@ -27,6 +27,7 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import org.xbmc.android.remote.R;
 
 /**
  * Makes the slider glide to the next tab.

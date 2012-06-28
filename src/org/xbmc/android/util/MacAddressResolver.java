@@ -24,6 +24,7 @@ package org.xbmc.android.util;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.net.InetAddress;
+import org.xbmc.android.remote.R;
 
 import android.os.Bundle;
 import android.os.Handler;

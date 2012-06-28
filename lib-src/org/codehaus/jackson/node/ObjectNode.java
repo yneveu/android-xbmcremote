@@ -12,6 +12,7 @@ import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.JsonToken;
 import org.codehaus.jackson.map.SerializerProvider;
+import org.xbmc.android.remote.R;
 
 /**
  * Note that maps to Json Object structures in Json content.

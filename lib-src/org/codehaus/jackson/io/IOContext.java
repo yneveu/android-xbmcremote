@@ -3,6 +3,7 @@ package org.codehaus.jackson.io;
 import org.codehaus.jackson.JsonEncoding;
 import org.codehaus.jackson.util.BufferRecycler;
 import org.codehaus.jackson.util.TextBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * To limit number of configuration and state objects to pass, all

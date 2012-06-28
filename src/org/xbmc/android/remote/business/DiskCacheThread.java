@@ -23,6 +23,7 @@ package org.xbmc.android.remote.business;
 
 import java.io.File;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.Crc32;
 import org.xbmc.android.util.ImportUtilities;
 import org.xbmc.api.business.DataResponse;

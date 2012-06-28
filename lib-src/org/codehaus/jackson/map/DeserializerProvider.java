@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map;
 
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Abstract class that defines API used by {@link ObjectMapper} and

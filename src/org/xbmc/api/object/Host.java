@@ -25,6 +25,7 @@ import java.io.Serializable;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.xbmc.android.remote.R;
 
 import android.util.Log;
 

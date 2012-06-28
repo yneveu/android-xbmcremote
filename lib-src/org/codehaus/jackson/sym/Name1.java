@@ -1,5 +1,7 @@
 package org.codehaus.jackson.sym;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Specialized implementation of PName: can be used for short Strings
  * that consists of at most 4 bytes. Usually this means short

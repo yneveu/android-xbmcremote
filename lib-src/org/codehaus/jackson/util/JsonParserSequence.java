@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.*;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class that can be used to sequence multiple physical

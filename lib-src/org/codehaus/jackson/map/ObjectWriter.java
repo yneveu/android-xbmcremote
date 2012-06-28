@@ -12,6 +12,7 @@ import org.codehaus.jackson.map.jsontype.TypeResolverBuilder;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.util.ByteArrayBuilder;
+import org.xbmc.android.remote.R;
 
 /**
  * Builder object that can be used for per-serialization configuration of

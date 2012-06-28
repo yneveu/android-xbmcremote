@@ -12,6 +12,7 @@ import org.codehaus.jackson.map.SerializationConfig;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.map.util.ClassUtil;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 public class BasicClassIntrospector
     extends ClassIntrospector<BasicBeanDescription>

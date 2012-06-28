@@ -9,6 +9,7 @@ import org.codehaus.jackson.map.KeyDeserializer;
 import org.codehaus.jackson.map.type.*;
 import org.codehaus.jackson.map.introspect.BasicBeanDescription;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class used to contain simple/well-known key deserializers.

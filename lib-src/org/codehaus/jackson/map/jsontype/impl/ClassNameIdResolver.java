@@ -7,6 +7,7 @@ import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.map.util.ClassUtil;
+import org.xbmc.android.remote.R;
 
 public class ClassNameIdResolver
     extends TypeIdResolverBase

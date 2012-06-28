@@ -6,6 +6,7 @@ import org.codehaus.jackson.*;
 import org.codehaus.jackson.io.IOContext;
 import org.codehaus.jackson.sym.*;
 import org.codehaus.jackson.util.*;
+import org.xbmc.android.remote.R;
 
 /**
  * This is a concrete implementation of {@link JsonParser}, which is

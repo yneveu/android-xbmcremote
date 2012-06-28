@@ -15,6 +15,8 @@
 
 package org.codehaus.jackson;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Shared base class for streaming processing contexts used during
  * reading and writing of Json content using Streaming API.

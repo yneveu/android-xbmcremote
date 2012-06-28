@@ -6,6 +6,7 @@ import java.net.URL;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.node.JsonNodeFactory;
 import org.codehaus.jackson.node.NullNode;
+import org.xbmc.android.remote.R;
 
 /**
  * This mapper (or, codec) provides mapping between Json,

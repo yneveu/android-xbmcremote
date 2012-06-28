@@ -11,6 +11,7 @@ import org.codehaus.jackson.map.JsonDeserializer;
 import org.codehaus.jackson.map.DeserializationContext;
 import org.codehaus.jackson.map.TypeDeserializer;
 import org.codehaus.jackson.map.util.ClassUtil;
+import org.xbmc.android.remote.R;
 
 /**
  * Basic serializer that can take Json "Array" structure and

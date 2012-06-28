@@ -5,6 +5,7 @@ import java.util.*;
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.map.JsonSerializer;
 import org.codehaus.jackson.map.ser.SerializerCache.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Optimized lookup table for accessing two types of serializers; typed

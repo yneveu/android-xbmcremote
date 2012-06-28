@@ -31,6 +31,7 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.business.Command;
 import org.xbmc.api.business.DataResponse;
 import org.xbmc.api.business.INotifiableManager;

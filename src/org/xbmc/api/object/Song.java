@@ -22,6 +22,7 @@
 package org.xbmc.api.object;
 import java.util.Formatter;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.type.MediaType;
 
 

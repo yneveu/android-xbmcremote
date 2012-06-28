@@ -26,6 +26,7 @@ import java.net.ConnectException;
 import java.net.SocketTimeoutException;
 
 import org.apache.http.HttpException;
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.business.Command;
 import org.xbmc.android.remote.presentation.activity.HostSettingsActivity;
 import org.xbmc.android.remote.presentation.activity.SettingsActivity;
@@ -193,7 +194,7 @@ public abstract class AbstractController {
 		} catch (NoSettingsException e) {
 			builder.setTitle("No hosts detected");
 			builder.setMessage(e.getMessage());
-			builder.setNeutralButton("Settings", new OnClickListener() {
+			builder.setNeutralButton(R.string.settings, new OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					final Intent intent = new Intent(mActivity, HostSettingsActivity.class);
 //					intent.putExtra(SettingsActivity.JUMP_TO, SettingsActivity.JUMP_TO_INSTANCES);
@@ -205,7 +206,7 @@ public abstract class AbstractController {
 			builder.setTitle("No Network");
 			builder.setMessage(e.getMessage());
 			builder.setCancelable(true);
-			builder.setNeutralButton("Settings", new OnClickListener() {
+			builder.setNeutralButton(R.string.settings, new OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					mActivity.startActivity(new Intent(android.provider.Settings.ACTION_WIRELESS_SETTINGS));
 					mDialogShowing = false;
@@ -217,7 +218,7 @@ public abstract class AbstractController {
 		} catch (SocketTimeoutException e) {
 			builder.setTitle("Socket Timeout");
 			builder.setMessage("Make sure XBMC webserver is enabled and XBMC is running.");
-			builder.setNeutralButton("Settings", new OnClickListener() {
+			builder.setNeutralButton(R.string.settings, new OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					mActivity.startActivity(new Intent(mActivity, SettingsActivity.class));
 					mDialogShowing = false;
@@ -226,7 +227,7 @@ public abstract class AbstractController {
 		} catch (ConnectException e) {
 			builder.setTitle("Connection Refused");
 			builder.setMessage("Make sure XBMC webserver is enabled and XBMC is running.");
-			builder.setNeutralButton("Settings", new OnClickListener() {
+			builder.setNeutralButton(R.string.settings, new OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					mActivity.startActivity(new Intent(mActivity, SettingsActivity.class));
 					mDialogShowing = false;
@@ -234,9 +235,9 @@ public abstract class AbstractController {
 			});
 		} catch (IOException e) {
 			if (e.getMessage() != null && e.getMessage().startsWith("Network unreachable")) {
-				builder.setTitle("No network");
+				builder.setTitle(R.string.no_network);
 				builder.setMessage("XBMC Remote needs local network access. Please make sure that your wireless network is activated. You can click on the Settings button below to directly access your network settings.");
-				builder.setNeutralButton("Settings", new OnClickListener() {
+				builder.setNeutralButton(R.string.settings, new OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						mActivity.startActivity(new Intent(android.provider.Settings.ACTION_WIRELESS_SETTINGS));
 						mDialogShowing = false;
@@ -253,7 +254,7 @@ public abstract class AbstractController {
 			if (e.getMessage().startsWith("401")) {
 				builder.setTitle("HTTP 401: Unauthorized");
 				builder.setMessage("The supplied username and/or password is incorrect. Please check your settings.");
-				builder.setNeutralButton("Settings", new OnClickListener() {
+				builder.setNeutralButton(R.string.settings, new OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						mActivity.startActivity(new Intent(mActivity, SettingsActivity.class));
 						mDialogShowing = false;

@@ -2,6 +2,7 @@ package org.xbmc.android.remote.presentation.wizard;
 
 import java.util.ArrayList;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.presentation.wizard.listener.PageCanFinishListener;
 
 import android.content.Context;

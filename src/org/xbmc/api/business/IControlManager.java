@@ -21,6 +21,7 @@
 
 package org.xbmc.api.business;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.data.IControlClient.ICurrentlyPlaying;
 import org.xbmc.api.type.SeekType;
 

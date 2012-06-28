@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.Arrays;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Default {@link PrettyPrinter} implementation that uses 2-space

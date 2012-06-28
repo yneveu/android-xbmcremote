@@ -7,6 +7,7 @@ import java.math.BigInteger;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.io.*;
 import org.codehaus.jackson.util.CharTypes;
+import org.xbmc.android.remote.R;
 
 public final class WriterBasedGenerator
     extends JsonGeneratorBase

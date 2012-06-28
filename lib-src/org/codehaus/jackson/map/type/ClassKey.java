@@ -1,5 +1,7 @@
 package org.codehaus.jackson.map.type;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Key class, used as an efficient and accurate key
  * for locating per-class values, such as

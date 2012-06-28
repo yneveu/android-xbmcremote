@@ -4,3 +4,5 @@
  * Application code should not (need to) use contents of this package.
  */
 package org.codehaus.jackson.impl;
+import org.xbmc.android.remote.R;
+

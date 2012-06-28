@@ -22,6 +22,7 @@
 package org.xbmc.android.remote.presentation.controller;
 
 import android.app.Activity;
+import org.xbmc.android.remote.R;
 
 public interface IController {
 	public void onActivityPause();

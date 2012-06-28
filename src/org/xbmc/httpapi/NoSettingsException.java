@@ -21,6 +21,8 @@
 
 package org.xbmc.httpapi;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Throw this exception if setting values were empty.
  * 

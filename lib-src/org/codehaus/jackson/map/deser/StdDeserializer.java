@@ -11,6 +11,7 @@ import org.codehaus.jackson.JsonToken;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.util.TokenBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class for common deserializers. Contains shared

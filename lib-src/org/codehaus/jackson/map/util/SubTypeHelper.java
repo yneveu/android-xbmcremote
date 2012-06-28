@@ -6,6 +6,7 @@ import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.map.introspect.Annotated;
 import org.codehaus.jackson.map.introspect.AnnotatedClass;
 import org.codehaus.jackson.map.jsontype.NamedType;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class used to encapsulate details of resolving information about

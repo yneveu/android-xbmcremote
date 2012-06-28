@@ -6,6 +6,7 @@ import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.codehaus.jackson.map.TypeDeserializer;
 import org.codehaus.jackson.map.TypeSerializer;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface that defines builders that are configured based on

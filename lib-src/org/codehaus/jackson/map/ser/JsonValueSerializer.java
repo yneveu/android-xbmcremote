@@ -14,6 +14,7 @@ import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.schema.SchemaAware;
 import org.codehaus.jackson.schema.JsonSchema;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Serializer class that can serialize Object that have a

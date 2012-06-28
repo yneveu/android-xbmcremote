@@ -39,6 +39,7 @@ import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.node.ObjectNode;
+import org.xbmc.android.remote.R;
 import org.xbmc.api.business.INotifiableManager;
 import org.xbmc.api.object.Host;
 import org.xbmc.httpapi.NoSettingsException;

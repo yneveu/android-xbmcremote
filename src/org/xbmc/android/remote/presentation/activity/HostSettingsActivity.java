@@ -21,6 +21,7 @@
 
 package org.xbmc.android.remote.presentation.activity;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.business.ManagerFactory;
 import org.xbmc.android.remote.presentation.controller.SettingsController;
 import org.xbmc.api.business.IEventClientManager;

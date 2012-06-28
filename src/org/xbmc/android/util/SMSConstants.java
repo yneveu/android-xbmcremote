@@ -1,6 +1,7 @@
 package org.xbmc.android.util;
 
 import android.net.Uri;
+import org.xbmc.android.remote.R;
 
 public class SMSConstants {
 	

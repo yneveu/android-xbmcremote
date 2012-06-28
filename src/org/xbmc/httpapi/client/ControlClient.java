@@ -23,6 +23,7 @@ package org.xbmc.httpapi.client;
 
 import java.util.HashMap;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.business.INotifiableManager;
 import org.xbmc.api.data.IControlClient;
 import org.xbmc.api.info.GuiActions;

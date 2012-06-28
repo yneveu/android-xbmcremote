@@ -3,3 +3,5 @@
  * Jackson core) and are used for configuring Data Mapping functionality.
  */
 package org.codehaus.jackson.map.annotate;
+import org.xbmc.android.remote.R;
+

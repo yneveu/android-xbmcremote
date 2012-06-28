@@ -13,6 +13,7 @@ import org.codehaus.jackson.schema.SchemaAware;
 import org.codehaus.jackson.type.JavaType;
 
 import org.codehaus.jackson.map.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Default {@link SerializerProvider} implementation. Handles

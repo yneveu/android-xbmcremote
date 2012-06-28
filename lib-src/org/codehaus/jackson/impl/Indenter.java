@@ -3,6 +3,7 @@ package org.codehaus.jackson.impl;
 import java.io.IOException;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface that defines objects that can produce indentation used

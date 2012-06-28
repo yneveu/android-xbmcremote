@@ -6,6 +6,7 @@ import org.codehaus.jackson.*;
 import org.codehaus.jackson.io.*;
 import org.codehaus.jackson.sym.BytesToNameCanonicalizer;
 import org.codehaus.jackson.sym.CharsToNameCanonicalizer;
+import org.xbmc.android.remote.R;
 
 /**
  * This class is used to determine the encoding of byte stream

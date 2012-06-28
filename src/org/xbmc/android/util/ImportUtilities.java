@@ -21,6 +21,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.ICoverArt;
 import org.xbmc.api.type.MediaType;
 import org.xbmc.api.type.ThumbSize;

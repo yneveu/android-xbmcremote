@@ -23,6 +23,7 @@ import java.io.OutputStream;
 import java.io.IOException;
 import java.io.Closeable;
 import java.io.File;
+import org.xbmc.android.remote.R;
 
 public final class IOUtilities {
     private static final String LOG_TAG = "IOUtilities";

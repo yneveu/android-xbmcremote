@@ -22,6 +22,7 @@
 package org.xbmc.api.business;
 
 import android.content.SharedPreferences;
+import org.xbmc.android.remote.R;
 
 public interface ISortableManager {
 	

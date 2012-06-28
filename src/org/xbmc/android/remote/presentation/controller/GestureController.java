@@ -1,5 +1,6 @@
 package org.xbmc.android.remote.presentation.controller;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.business.ManagerFactory;
 import org.xbmc.api.business.IEventClientManager;
 import org.xbmc.api.presentation.INotifiableController;

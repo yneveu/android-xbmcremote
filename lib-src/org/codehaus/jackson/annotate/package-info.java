@@ -14,3 +14,5 @@
  * Jackson.
  */
 package org.codehaus.jackson.annotate;
+import org.xbmc.android.remote.R;
+

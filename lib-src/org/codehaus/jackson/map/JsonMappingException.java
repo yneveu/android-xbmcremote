@@ -3,6 +3,7 @@ package org.codehaus.jackson.map;
 import java.util.*;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Checked exception used to signal fatal problems with mapping of

@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map.annotate;
 
 import org.codehaus.jackson.map.jsontype.TypeResolverBuilder;
+import org.xbmc.android.remote.R;
 
 /**
  * Annotation that can be used to explicitly define custom resolver

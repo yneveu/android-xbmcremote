@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.type.TypeReference;
+import org.xbmc.android.remote.R;
 
 /**
  * Abstract class that defines the interface that {@link JsonParser} and

@@ -242,17 +242,17 @@ public abstract class DialogFactory {
 
 				// update content
 				if (artist.born != null) {
-					bornText.setText("Born: " + artist.born);
+					bornText.setText(R.string.artist_born_date + artist.born);
 				} else {
 					bornText.setVisibility(View.GONE);
 				}
 				if (artist.formed != null) {
-					formedText.setText("Formed: " + artist.formed);
+					formedText.setText(R.string.artist_formed_date + artist.formed);
 				} else {
 					formedText.setVisibility(View.GONE);
 				}
 				if (artist.genres != null) {
-					genresText.setText("Genre: " + artist.genres);
+					genresText.setText(R.string.artist_genre + artist.genres);
 				} else {
 					genresText.setVisibility(View.GONE);
 				}

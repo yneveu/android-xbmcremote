@@ -23,6 +23,7 @@ package org.xbmc.android.remote.business;
 
 import java.io.IOException;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.ClientFactory;
 import org.xbmc.api.business.DataResponse;
 import org.xbmc.api.business.IEventClientManager;

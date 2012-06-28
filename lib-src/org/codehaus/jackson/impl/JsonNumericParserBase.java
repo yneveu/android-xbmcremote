@@ -8,6 +8,7 @@ import java.io.*;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.io.IOContext;
 import org.codehaus.jackson.io.NumberInput;
+import org.xbmc.android.remote.R;
 
 /**
  * Another intermediate base class used by all Jackson {@link JsonParser}

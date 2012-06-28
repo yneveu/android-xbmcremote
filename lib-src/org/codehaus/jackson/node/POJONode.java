@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.SerializerProvider;
+import org.xbmc.android.remote.R;
 
 /**
  * Value node that contains a wrapped POJO, to be serialized as

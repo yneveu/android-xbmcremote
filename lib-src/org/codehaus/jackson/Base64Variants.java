@@ -14,6 +14,8 @@
  */
 package org.codehaus.jackson;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Container for commonly used Base64 variants.
  * 

@@ -6,3 +6,5 @@
  * {@link java.util.Map} classes) are to be handled.
  */
 package org.codehaus.jackson.type;
+import org.xbmc.android.remote.R;
+

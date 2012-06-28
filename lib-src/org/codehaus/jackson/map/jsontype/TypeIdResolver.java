@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.jsontype;
 
 import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface that defines standard API for converting types

@@ -1,5 +1,7 @@
 package org.codehaus.jackson.sym;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Base class for tokenized names (key strings in objects) that have
  * been tokenized from byte-based input sources (like

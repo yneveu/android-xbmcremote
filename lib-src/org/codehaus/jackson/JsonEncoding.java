@@ -1,5 +1,7 @@
 package org.codehaus.jackson;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Enumeration that defines legal encodings that can be used
  * for JSON content, based on list of allowed encodings from

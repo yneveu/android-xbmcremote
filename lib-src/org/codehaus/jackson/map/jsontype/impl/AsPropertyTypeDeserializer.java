@@ -9,6 +9,7 @@ import org.codehaus.jackson.map.jsontype.TypeIdResolver;
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.util.JsonParserSequence;
 import org.codehaus.jackson.util.TokenBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * Type deserializer used with {@link JsonTypeInfo.As#PROPERTY}

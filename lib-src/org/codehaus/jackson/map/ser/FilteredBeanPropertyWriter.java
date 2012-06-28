@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.ser;
 
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.map.SerializerProvider;
+import org.xbmc.android.remote.R;
 
 /**
  * Decorated {@link BeanPropertyWriter} that will filter out

@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 import org.codehaus.jackson.io.NumberInput;
+import org.xbmc.android.remote.R;
 
 /**
  * Default {@link DateFormat} implementation used by standard Date

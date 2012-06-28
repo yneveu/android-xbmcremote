@@ -1,5 +1,6 @@
 package org.xbmc.android.remote.presentation.wizard.setupwizard;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.presentation.wizard.Wizard;
 import org.xbmc.android.remote.presentation.wizard.WizardPage;
 import org.xbmc.android.util.ClientFactory;

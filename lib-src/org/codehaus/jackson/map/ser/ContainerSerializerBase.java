@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map.ser;
 
 import org.codehaus.jackson.map.TypeSerializer;
+import org.xbmc.android.remote.R;
 
 /**
  * Intermediate base class for types that contain element(s) of

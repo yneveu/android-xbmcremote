@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.introspect;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Member;
 import java.lang.reflect.Type;
+import org.xbmc.android.remote.R;
 
 public final class AnnotatedConstructor
     extends AnnotatedWithParams

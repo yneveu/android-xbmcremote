@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map.deser;
 
 import org.codehaus.jackson.map.AnnotationIntrospector;
+import org.xbmc.android.remote.R;
 
 import java.util.*;
 

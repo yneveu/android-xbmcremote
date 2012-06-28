@@ -3,6 +3,7 @@ package org.codehaus.jackson.sym;
 import java.util.Arrays;
 
 import org.codehaus.jackson.util.InternCache;
+import org.xbmc.android.remote.R;
 
 /**
  * This class is basically a caching symbol table implementation used for

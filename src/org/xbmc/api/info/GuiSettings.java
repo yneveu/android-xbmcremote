@@ -21,6 +21,8 @@
 
 package org.xbmc.api.info;
 
+import org.xbmc.android.remote.R;
+
 public class GuiSettings {
 	
 	public static class Services {

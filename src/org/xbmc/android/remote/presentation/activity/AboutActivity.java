@@ -57,7 +57,7 @@ public class AboutActivity extends Activity {
 			((TextView)findViewById(R.id.about_revision)).setText("Revision " + versionCode);
 			TextView message = (TextView)findViewById(R.id.about_url_message);
 			
-			message.setText(Html.fromHtml("Visit our project page at <a href=\"http://code.google.com/p/android-xbmcremote\">Google Code</a>."));
+			message.setText(Html.fromHtml(getString(R.string.project_url_text)));
 			message.setMovementMethod(LinkMovementMethod.getInstance());
 		} catch (NameNotFoundException e) {
 			((TextView)findViewById(R.id.about_version)).setText("Error reading version");

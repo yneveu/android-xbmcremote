@@ -6,6 +6,7 @@ import org.codehaus.jackson.*;
 import org.codehaus.jackson.io.IOContext;
 import org.codehaus.jackson.util.ByteArrayBuilder;
 import org.codehaus.jackson.util.TextBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * Intermediate base class used by all Jackson {@link JsonParser}

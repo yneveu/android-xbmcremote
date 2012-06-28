@@ -6,6 +6,7 @@ import org.codehaus.jackson.map.JsonSerializer;
 import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.map.TypeSerializer;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

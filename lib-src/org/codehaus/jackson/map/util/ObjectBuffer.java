@@ -1,6 +1,7 @@
 package org.codehaus.jackson.map.util;
 
 import java.lang.reflect.Array;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class to use for constructing Object arrays by appending entries

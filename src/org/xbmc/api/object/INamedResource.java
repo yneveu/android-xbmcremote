@@ -21,6 +21,8 @@
 
 package org.xbmc.api.object;
 
+import org.xbmc.android.remote.R;
+
 public interface INamedResource {
 	String getShortName();
 }

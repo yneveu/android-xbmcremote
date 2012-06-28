@@ -21,6 +21,8 @@
 
 package org.xbmc.api.business;
 
+import org.xbmc.android.remote.R;
+
 
 
 /**

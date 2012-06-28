@@ -3,6 +3,7 @@ package org.codehaus.jackson.map;
 import java.io.IOException;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface that can be implemented by objects that know how to

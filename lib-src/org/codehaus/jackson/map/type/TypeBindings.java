@@ -4,6 +4,7 @@ import java.lang.reflect.*;
 import java.util.*;
 
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class used for resolving type parameters for given class

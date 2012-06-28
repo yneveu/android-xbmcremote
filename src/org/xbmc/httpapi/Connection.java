@@ -37,6 +37,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import org.apache.http.HttpException;
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.Base64;
 import org.xbmc.android.util.ClientFactory;
 import org.xbmc.api.business.INotifiableManager;

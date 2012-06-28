@@ -13,6 +13,7 @@ import org.codehaus.jackson.node.ObjectNode;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Serializer class that can serialize arbitrary bean objects.

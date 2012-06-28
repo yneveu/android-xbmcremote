@@ -13,6 +13,7 @@ import org.codehaus.jackson.map.util.ArrayBuilders;
 import org.codehaus.jackson.map.util.LinkedNode;
 import org.codehaus.jackson.map.util.ObjectBuffer;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Default implementation of {@link DeserializationContext}.

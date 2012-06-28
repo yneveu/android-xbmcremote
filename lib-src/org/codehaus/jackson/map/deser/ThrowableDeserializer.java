@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.*;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Deserializer that builds on basic {@link BeanDeserializer} but

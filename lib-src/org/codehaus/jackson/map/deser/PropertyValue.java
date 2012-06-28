@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.deser;
 
 import java.io.IOException;
 import org.codehaus.jackson.JsonProcessingException;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class for property values that need to be buffered during

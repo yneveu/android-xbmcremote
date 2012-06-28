@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.codehaus.jackson.map.jsontype.TypeIdResolver;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface for deserializing type information from JSON content, to

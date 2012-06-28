@@ -11,6 +11,7 @@ import org.codehaus.jackson.map.annotate.JsonSerialize.Inclusion;
 import org.codehaus.jackson.map.annotate.JsonSerialize.Typing;
 import org.codehaus.jackson.map.jsontype.NamedType;
 import org.codehaus.jackson.map.jsontype.TypeResolverBuilder;
+import org.xbmc.android.remote.R;
 
 /**
  * Dummy, "no-operation" implementation of {@link AnnotationIntrospector}.

@@ -2,6 +2,7 @@ package org.xbmc.android.util;
 
 import java.util.List;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.Host;
 
 import android.content.Context;

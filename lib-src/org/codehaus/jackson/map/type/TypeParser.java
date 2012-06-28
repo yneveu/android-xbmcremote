@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.type;
 import java.util.*;
 
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Simple recursive-descent parser for parsing canonical {@link JavaType}

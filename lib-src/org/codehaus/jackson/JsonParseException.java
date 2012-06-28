@@ -1,5 +1,7 @@
 package org.codehaus.jackson;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Exception type for parsing problems, used when non-well-formed content
  * (content that does not conform to JSON syntax as per specification)

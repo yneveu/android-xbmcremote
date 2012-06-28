@@ -21,6 +21,8 @@ $ *      Copyright (C) 2005-2009 Team XBMC
 
 package org.xbmc.api.info;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Describes a play status, which can be:
  * <ul>

@@ -22,6 +22,7 @@
 package org.xbmc.android.remote.presentation.activity;
 
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.presentation.controller.MediaIntentController;
 import org.xbmc.api.type.ThumbSize;
 

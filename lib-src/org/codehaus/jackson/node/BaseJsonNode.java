@@ -6,6 +6,7 @@ import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.JsonSerializableWithType;
 import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.map.TypeSerializer;
+import org.xbmc.android.remote.R;
 
 /**
  * Abstract base class common to all standard {@link JsonNode}

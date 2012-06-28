@@ -1,6 +1,7 @@
 package org.codehaus.jackson.io;
 
 import java.io.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Simple {@link InputStream} implementation that is used to "unwind" some

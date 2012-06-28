@@ -18,6 +18,7 @@ package org.xbmc.android.util;
 
 import android.view.KeyEvent;
 import android.view.ViewConfiguration;
+import org.xbmc.android.remote.R;
 
 public class KeyTracker {
 

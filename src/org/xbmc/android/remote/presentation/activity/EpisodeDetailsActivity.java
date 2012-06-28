@@ -185,7 +185,7 @@ public class EpisodeDetailsActivity extends Activity {
 							
 							((TextView)view.findViewById(R.id.actor_name)).setText(actor.name);
 							if (actor.role != null && !actor.role.equals("")) {
-								((TextView)view.findViewById(R.id.actor_role)).setText("as " + actor.role);
+								((TextView)view.findViewById(R.id.actor_role)).setText(R.string.actor_role_as + actor.role);
 							} else {
 								((TextView)view.findViewById(R.id.actor_role)).setVisibility(View.GONE);
 							}

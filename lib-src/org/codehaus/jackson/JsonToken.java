@@ -1,5 +1,7 @@
 package org.codehaus.jackson;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Enumeration for basic token types used for returning results
  * of parsing JSON content.

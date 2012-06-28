@@ -3,6 +3,7 @@ package org.codehaus.jackson.map.jsontype.impl;
 import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.codehaus.jackson.map.TypeSerializer;
 import org.codehaus.jackson.map.jsontype.TypeIdResolver;
+import org.xbmc.android.remote.R;
 
 /**
  * @since 1.5

@@ -1,5 +1,7 @@
 package org.codehaus.jackson.map;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Wrapper used when interface does not allow throwing a checked
  * {@link JsonMappingException}

@@ -13,6 +13,7 @@ import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.node.JsonNodeFactory;
 import org.codehaus.jackson.node.ObjectNode;
 import org.codehaus.jackson.schema.SchemaAware;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class used by all standard serializers. Provides some convenience

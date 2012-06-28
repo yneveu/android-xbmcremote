@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.*;
+import org.xbmc.android.remote.R;
 
 /**
  * This is a simple dummy serializer that will just output literal

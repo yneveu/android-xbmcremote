@@ -1,6 +1,7 @@
 package org.codehaus.jackson;
 
 import java.io.IOException;
+import org.xbmc.android.remote.R;
 
 /**
  * Interface for objects that implement pretty printer functionality, such

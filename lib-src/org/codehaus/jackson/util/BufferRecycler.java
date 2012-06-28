@@ -1,5 +1,7 @@
 package org.codehaus.jackson.util;
 
+import org.xbmc.android.remote.R;
+
 /**
  * This is a small utility class, whose main functionality is to allow
  * simple reuse of raw byte/char buffers. It is usually used through

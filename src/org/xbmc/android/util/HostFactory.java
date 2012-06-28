@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.business.provider.HostProvider;
 import org.xbmc.android.remote.business.provider.HostProvider.Hosts;
 import org.xbmc.api.object.Host;

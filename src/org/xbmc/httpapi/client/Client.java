@@ -27,6 +27,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.Base64;
 import org.xbmc.android.util.ClientFactory;
 import org.xbmc.android.util.ImportUtilities;

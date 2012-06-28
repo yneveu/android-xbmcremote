@@ -3,6 +3,7 @@ package org.codehaus.jackson.schema;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.map.JsonMappingException;
+import org.xbmc.android.remote.R;
 
 import java.lang.reflect.Type;
 

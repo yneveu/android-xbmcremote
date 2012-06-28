@@ -6,6 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 import org.codehaus.jackson.annotate.JacksonAnnotation;
+import org.xbmc.android.remote.R;
 
 /**
  * Annotation used for indicating view(s) that the property

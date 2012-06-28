@@ -11,6 +11,7 @@ import org.codehaus.jackson.map.introspect.AnnotatedConstructor;
 import org.codehaus.jackson.map.introspect.AnnotatedMethod;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.map.util.ClassUtil;
+import org.xbmc.android.remote.R;
 
 /**
  * Container for different kinds of Creators; objects capable of instantiating

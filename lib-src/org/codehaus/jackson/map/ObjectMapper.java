@@ -29,6 +29,7 @@ import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.type.TypeReference;
 import org.codehaus.jackson.util.ByteArrayBuilder;
 import org.codehaus.jackson.util.TokenBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * This mapper (or, data binder, or codec) provides functionality for

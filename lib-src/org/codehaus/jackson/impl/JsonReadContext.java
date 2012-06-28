@@ -2,6 +2,7 @@ package org.codehaus.jackson.impl;
 
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.util.CharTypes;
+import org.xbmc.android.remote.R;
 
 /**
  * Extension of {@link JsonStreamContext}, which implements

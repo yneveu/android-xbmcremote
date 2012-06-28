@@ -2,6 +2,7 @@ package org.codehaus.jackson.type;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+import org.xbmc.android.remote.R;
 
 /**
  * This class is used to pass full generics type information, and

@@ -21,6 +21,7 @@
 
 package org.xbmc.api.business;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.object.ICoverArt;
 import org.xbmc.api.presentation.INotifiableController;
 

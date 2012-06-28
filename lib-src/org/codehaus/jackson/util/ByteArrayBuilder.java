@@ -18,6 +18,7 @@ package org.codehaus.jackson.util;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class that is similar to {@link java.io.ByteArrayOutputStream}

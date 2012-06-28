@@ -10,6 +10,7 @@ import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.DeserializationContext;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.TypeDeserializer;
+import org.xbmc.android.remote.R;
 
 /**
  * This deserializer is only used if it is necessary to bind content of

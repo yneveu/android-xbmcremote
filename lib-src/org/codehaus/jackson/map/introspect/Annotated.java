@@ -8,6 +8,7 @@ import java.lang.reflect.Type;
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.map.type.TypeBindings;
 import org.codehaus.jackson.map.type.TypeFactory;
+import org.xbmc.android.remote.R;
 
 /**
  * Shared base class used for anything on which annotations (included

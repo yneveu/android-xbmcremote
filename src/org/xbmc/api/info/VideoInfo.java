@@ -21,6 +21,8 @@
 
 package org.xbmc.api.info;
 
+import org.xbmc.android.remote.R;
+
 public class VideoInfo {
 	public static final int VIDEOPLAYER_TITLE             = 250;
 	public static final int VIDEOPLAYER_GENRE             = 251;

@@ -1,5 +1,7 @@
 package org.xbmc.eventclient;
 
+import org.xbmc.android.remote.R;
+
 /**
  * XBMC Event Client Class
  * 

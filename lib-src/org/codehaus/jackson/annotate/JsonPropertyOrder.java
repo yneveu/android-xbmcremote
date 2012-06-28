@@ -4,6 +4,7 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+import org.xbmc.android.remote.R;
 
 /**
  * Annotation that can be used to define ordering (possibly partial) to use

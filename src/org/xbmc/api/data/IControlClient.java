@@ -23,6 +23,7 @@ package org.xbmc.api.data;
 
 import java.io.Serializable;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.business.INotifiableManager;
 import org.xbmc.api.type.SeekType;
 

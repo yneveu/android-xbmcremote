@@ -1,5 +1,6 @@
 package org.xbmc.android.remote.business;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.ImportUtilities;
 
 public class CacheManager {

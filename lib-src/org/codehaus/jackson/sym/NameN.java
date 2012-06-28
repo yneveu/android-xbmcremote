@@ -1,5 +1,7 @@
 package org.codehaus.jackson.sym;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Generic implementation of PName used for "long" names, where long
  * means that its byte (UTF-8) representation is 13 bytes or more.

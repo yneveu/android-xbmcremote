@@ -6,6 +6,7 @@ import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.codehaus.jackson.map.jsontype.TypeIdResolver;
+import org.xbmc.android.remote.R;
 
 /**
  * Type serializer that will embed type information in an array,

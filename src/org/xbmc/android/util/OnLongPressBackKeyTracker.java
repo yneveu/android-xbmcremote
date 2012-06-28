@@ -1,5 +1,6 @@
 package org.xbmc.android.util;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.util.KeyTracker.OnKeyTracker;
 import org.xbmc.android.util.KeyTracker.Stage;
 import org.xbmc.android.util.KeyTracker.State;

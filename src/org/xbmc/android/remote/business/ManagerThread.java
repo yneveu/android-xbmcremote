@@ -21,6 +21,7 @@
 
 package org.xbmc.android.remote.business;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.api.presentation.INotifiableController;
 
 import android.os.Handler;

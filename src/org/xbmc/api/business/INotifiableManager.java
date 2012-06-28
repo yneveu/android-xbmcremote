@@ -21,6 +21,7 @@
 
 package org.xbmc.api.business;
 
+import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.business.Command;
 
 public interface INotifiableManager {

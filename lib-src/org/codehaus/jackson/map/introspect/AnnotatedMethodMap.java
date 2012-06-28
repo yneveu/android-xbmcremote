@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.introspect;
 
 import java.lang.reflect.Method;
 import java.util.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Simple helper class used to keep track of collection of

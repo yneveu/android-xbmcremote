@@ -17,6 +17,7 @@ import org.codehaus.jackson.map.util.ArrayBuilders;
 import org.codehaus.jackson.map.util.ClassUtil;
 import org.codehaus.jackson.map.util.SubTypeHelper;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
  
 /**
  * Factory class that can provide serializers for any regular Java beans

@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 import org.codehaus.jackson.annotate.JacksonAnnotation;
 import org.codehaus.jackson.map.JsonDeserializer;
 import org.codehaus.jackson.map.KeyDeserializer;
+import org.xbmc.android.remote.R;
 
 /**
  * Annotation use for configuring deserialization aspects, by attaching

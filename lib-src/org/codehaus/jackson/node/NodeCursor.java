@@ -3,6 +3,7 @@ package org.codehaus.jackson.node;
 import java.util.*;
 
 import org.codehaus.jackson.*;
+import org.xbmc.android.remote.R;
 
 /**
  * Helper class used by {@link TreeTraversingParser} to keep track

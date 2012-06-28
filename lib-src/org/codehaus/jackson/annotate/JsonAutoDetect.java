@@ -6,6 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.lang.reflect.Member;
 import java.lang.reflect.Modifier;
+import org.xbmc.android.remote.R;
 
 /**
  * Class annotation that can be used to define which kinds of Methods

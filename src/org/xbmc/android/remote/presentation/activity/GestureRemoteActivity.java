@@ -151,9 +151,9 @@ public class GestureRemoteActivity extends Activity {
 	}
 	
 	public boolean onCreateOptionsMenu(Menu menu) {
-		menu.add(0, MENU_SWITCH_BUTTONS, 0, "Switch to buttons").setIcon(R.drawable.menu_remote);
-		menu.add(0, MENU_NOW_PLAYING, 0, "Now playing").setIcon(R.drawable.menu_nowplaying);
-		menu.add(0, MENU_ENTER_TEXT, 0, "Text Entry").setIcon(R.drawable.menu_text_entry);
+		menu.add(0, MENU_SWITCH_BUTTONS, 0, R.string.switch_to_buttons).setIcon(R.drawable.menu_remote);
+		menu.add(0, MENU_NOW_PLAYING, 0, R.string.now_playing).setIcon(R.drawable.menu_nowplaying);
+		menu.add(0, MENU_ENTER_TEXT, 0, R.string.text_entry).setIcon(R.drawable.menu_text_entry);
 		return true;
 	}
 

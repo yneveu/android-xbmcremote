@@ -159,21 +159,21 @@ public class HomeController extends AbstractController implements INotifiableCon
 		}
 		if (hosts.size() > 0) {
 			AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);
-			builder.setTitle("Pick your XBMC!");
+			builder.setTitle(R.string.pick_your_xbmc_);
 			builder.setItems(names, new DialogInterface.OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					final Host host = hostMap.get(which);
 					if (HostFactory.host != null && HostFactory.host.id == host.id) {
-						Toast.makeText(mActivity.getApplicationContext(), "You've picked the same host as the current.", Toast.LENGTH_SHORT).show();
+						Toast.makeText(mActivity.getApplicationContext(), R.string.you_ve_picked_the_same_host_as_the_current_, Toast.LENGTH_SHORT).show();
 					} else {
-						Log.i(TAG, "Switching host to " + (host == null ? "<null>" : host.addr) + ".");
+						Log.i(TAG, mActivity.getString(R.string.switching_host_to_) + (host == null ? "<null>" : host.addr) + ".");
 						HostFactory.saveHost(mActivity.getApplicationContext(), host);
 						final GridView menuGrid = (GridView)mActivity.findViewById(R.id.HomeItemGridView);
 						resetupOfflineMenuItems();
 						setHomeAdapter(menuGrid, mOfflineMenu);
 						final Button versionButton = (Button)mActivity.findViewById(R.id.home_version_button);
-						versionButton.setText("Connecting...");
-						Toast.makeText(mActivity.getApplicationContext(), "Changed host to " + host.toString() + ".", Toast.LENGTH_SHORT).show();
+						versionButton.setText(R.string.connecting_);
+						Toast.makeText(mActivity.getApplicationContext(), R.string.changed_host_to_ + host.toString() + ".", Toast.LENGTH_SHORT).show();
 						ClientFactory.resetClient(host);
 						mInfoManager.getSystemInfo(mUpdateVersionHandler, SystemInfo.SYSTEM_BUILD_VERSION, mActivity.getApplicationContext());
 					}
@@ -183,7 +183,7 @@ public class HomeController extends AbstractController implements INotifiableCon
 			dialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_BLUR_BEHIND, WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
 			dialog.show();
 		} else {
-			Toast.makeText(mActivity.getApplicationContext(), "No XBMC hosts defined, please do that first.", Toast.LENGTH_LONG).show();
+			Toast.makeText(mActivity.getApplicationContext(), R.string.no_xbmc_hosts_defined, Toast.LENGTH_LONG).show();
 			Intent intent = new Intent(mActivity, HostSettingsActivity.class);
 			mActivity.startActivity(intent);
 		}
@@ -196,7 +196,7 @@ public class HomeController extends AbstractController implements INotifiableCon
 					handler.post(new Runnable() {
 						public void run() {
 							if (!ConnectionFactory.isNetworkAvailable(mActivity.getApplicationContext())) {
-								versionTextView.setText("No network");
+								versionTextView.setText(R.string.no_network);
 							}
 							if (!value.equals("")) {
 								if (mWolCounter != null) {
@@ -206,7 +206,7 @@ public class HomeController extends AbstractController implements INotifiableCon
 								homeItemGrid.setAdapter(mHomeMenu);
 								NowPlayingNotificationManager.getInstance(mActivity.getApplicationContext()).startNotificating();
 							} else {
-								versionTextView.setText("Check Settings and retry");
+								versionTextView.setText(R.string.check_settings_and_retry);
 								homeItemGrid.setAdapter(mOfflineMenu);
 							}
 						}

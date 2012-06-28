@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.SerializerProvider;
+import org.xbmc.android.remote.R;
 
 /**
  * Value node that contains Base64 encoded binary value, which will be

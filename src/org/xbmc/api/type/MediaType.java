@@ -21,6 +21,8 @@
 
 package org.xbmc.api.type;
 
+import org.xbmc.android.remote.R;
+
 public abstract class MediaType {
 	
 	public static final int UNKNOWN = -1;

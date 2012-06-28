@@ -3,6 +3,7 @@ package org.codehaus.jackson.impl;
 import java.io.*;
 
 import org.codehaus.jackson.io.IOContext;
+import org.xbmc.android.remote.R;
 
 /**
  * This is a simple low-level input reader base class, used by

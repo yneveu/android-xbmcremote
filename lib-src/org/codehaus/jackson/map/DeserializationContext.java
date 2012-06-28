@@ -7,6 +7,7 @@ import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.util.ArrayBuilders;
 import org.codehaus.jackson.map.util.ObjectBuffer;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 /**
  * Context for deserialization process. Used to allow passing in configuration

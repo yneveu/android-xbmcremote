@@ -22,6 +22,7 @@
 package org.xbmc.android.util;
 
 import java.io.UnsupportedEncodingException;
+import org.xbmc.android.remote.R;
 
 /**
  * This is basically a transcript from XBMC's Crc32.cpp. It avoids having to

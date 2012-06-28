@@ -6,6 +6,7 @@ import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.codehaus.jackson.map.jsontype.NamedType;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.type.JavaType;
+import org.xbmc.android.remote.R;
 
 public class TypeNameIdResolver
     extends TypeIdResolverBase

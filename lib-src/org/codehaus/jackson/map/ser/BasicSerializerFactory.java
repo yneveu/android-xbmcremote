@@ -18,6 +18,7 @@ import org.codehaus.jackson.map.util.Provider;
 import org.codehaus.jackson.map.util.SubTypeHelper;
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.util.TokenBuffer;
+import org.xbmc.android.remote.R;
 
 /**
  * Factory class that can provide serializers for standard JDK classes,

@@ -15,6 +15,7 @@
 package org.codehaus.jackson;
 
 import java.util.Arrays;
+import org.xbmc.android.remote.R;
 
 /**
  * Abstract base class used to define specific details of which

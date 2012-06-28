@@ -2,6 +2,7 @@ package org.codehaus.jackson.util;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import org.xbmc.android.remote.R;
 
 /**
  * TextBuffer is a class similar to {@link StringBuffer}, with

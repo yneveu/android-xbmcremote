@@ -1,5 +1,7 @@
 package org.codehaus.jackson.map.annotate;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Marker class used with annotations to indicate "no class". This is
  * a silly but necessary work-around -- annotations can not take nulls

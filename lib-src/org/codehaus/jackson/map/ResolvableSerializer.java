@@ -1,5 +1,7 @@
 package org.codehaus.jackson.map;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Interface used to indicate serializers that want to do post-processing
  * after construction and being added to {@link SerializerProvider},

@@ -3,6 +3,7 @@ package org.codehaus.jackson.map;
 import java.io.IOException;
 
 import org.codehaus.jackson.JsonProcessingException;
+import org.xbmc.android.remote.R;
 
 /**
  * This is the class that can be registered (via

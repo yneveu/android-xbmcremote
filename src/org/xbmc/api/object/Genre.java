@@ -22,6 +22,7 @@
 package org.xbmc.api.object;
 
 import java.io.Serializable;
+import org.xbmc.android.remote.R;
 
 
 

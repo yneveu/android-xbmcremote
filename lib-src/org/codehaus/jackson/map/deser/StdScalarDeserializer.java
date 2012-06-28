@@ -6,6 +6,7 @@ import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.DeserializationContext;
 import org.codehaus.jackson.map.TypeDeserializer;
+import org.xbmc.android.remote.R;
 
 /**
  * Base class for deserializers that handle types that are serialized

@@ -2,6 +2,7 @@ package org.codehaus.jackson.map.jsontype.impl;
 
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.annotate.JsonTypeInfo;
+import org.xbmc.android.remote.R;
 
 public class MinimalClassNameIdResolver
     extends ClassNameIdResolver

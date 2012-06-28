@@ -22,6 +22,7 @@
 package org.xbmc.android.remote.business.provider;
 
 import java.util.HashMap;
+import org.xbmc.android.remote.R;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;

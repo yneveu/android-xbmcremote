@@ -5,6 +5,7 @@ import java.lang.reflect.*;
 
 import org.codehaus.jackson.type.JavaType;
 import org.codehaus.jackson.type.TypeReference;
+import org.xbmc.android.remote.R;
 
 /**
  * Class used for constracting concrete {@link JavaType} instances,

@@ -120,9 +120,9 @@ public abstract class AbsListActivity extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		menu.add(0, MENU_NOW_PLAYING, 0, "Now playing").setIcon(R.drawable.menu_nowplaying);
+		menu.add(0, MENU_NOW_PLAYING, 0, R.string.now_playing).setIcon(R.drawable.menu_nowplaying);
 		mListController.onCreateOptionsMenu(menu);
-		menu.add(0, MENU_REMOTE, 0, "Remote control").setIcon(R.drawable.menu_remote);
+		menu.add(0, MENU_REMOTE, 0, R.string.remote_control).setIcon(R.drawable.menu_remote);
 		return super.onCreateOptionsMenu(menu);
 	}
 

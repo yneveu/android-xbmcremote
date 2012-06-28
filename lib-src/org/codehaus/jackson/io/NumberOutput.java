@@ -1,5 +1,7 @@
 package org.codehaus.jackson.io;
 
+import org.xbmc.android.remote.R;
+
 public final class NumberOutput
 {
     private final static char NULL_CHAR = (char) 0;

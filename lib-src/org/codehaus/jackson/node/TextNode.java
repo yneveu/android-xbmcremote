@@ -6,6 +6,7 @@ import org.codehaus.jackson.*;
 import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.util.ByteArrayBuilder;
 import org.codehaus.jackson.util.CharTypes;
+import org.xbmc.android.remote.R;
 
 /**
  * Value node that contains a text value.

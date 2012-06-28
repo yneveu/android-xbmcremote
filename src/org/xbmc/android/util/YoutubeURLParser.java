@@ -2,6 +2,7 @@ package org.xbmc.android.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.xbmc.android.remote.R;
 
 import android.net.Uri;
 

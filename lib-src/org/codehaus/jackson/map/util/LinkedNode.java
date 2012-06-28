@@ -1,5 +1,7 @@
 package org.codehaus.jackson.map.util;
 
+import org.xbmc.android.remote.R;
+
 /**
  * Node of a forward-only linked list.
  * 

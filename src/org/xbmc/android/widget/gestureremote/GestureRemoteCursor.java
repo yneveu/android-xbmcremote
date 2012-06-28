@@ -26,6 +26,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.graphics.Rect;
+import org.xbmc.android.remote.R;
 
 class GestureRemoteCursor {
 	

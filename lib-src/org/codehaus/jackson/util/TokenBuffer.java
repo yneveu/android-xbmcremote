@@ -7,6 +7,7 @@ import java.math.BigInteger;
 import org.codehaus.jackson.*;
 import org.codehaus.jackson.impl.JsonReadContext;
 import org.codehaus.jackson.impl.JsonWriteContext;
+import org.xbmc.android.remote.R;
 
 /**
  * Utility class used for efficient storage of {@link JsonToken}

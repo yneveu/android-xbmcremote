@@ -26,6 +26,7 @@ import android.graphics.Point;
 import android.util.AttributeSet;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
+import org.xbmc.android.remote.R;
 
 /**
  * Makes the slider glide to the next tab.

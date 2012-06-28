@@ -32,6 +32,7 @@ import org.xbmc.api.business.IEventClientManager;
 import org.xbmc.api.type.ThumbSize;
 import org.xbmc.eventclient.ButtonCodes;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -83,6 +84,7 @@ public class HomeActivity extends Activity {
 	private ProgressThread mProgressThread;
     private ProgressDialog mProgressDialog;
 	
+	@TargetApi(9)
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -105,7 +107,7 @@ public class HomeActivity extends Activity {
 		mEventClientManager = ManagerFactory.getEventClientManager(mHomeController);
 		mConfigurationManager = ConfigurationManager.getInstance(this);
 		
-		versionButton.setText("Connecting...");
+		versionButton.setText(R.string.connecting_);
 		versionButton.setOnClickListener(mHomeController.getOnHostChangeListener());
 		
 		((Button)findViewById(R.id.home_about_button)).setOnClickListener(new OnClickListener() {
@@ -119,20 +121,20 @@ public class HomeActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		
-		menu.add(0, MENU_SWITCH_XBMC, 0, "Switch XBMC").setIcon(R.drawable.menu_switch);
-		SubMenu downloadMenu = menu.addSubMenu(0, MENU_COVER_DOWNLOAD, 0, "Download Covers").setIcon(R.drawable.menu_download);
-		menu.add(0, MENU_ABOUT, 0, "About").setIcon(R.drawable.menu_about);
-		menu.add(0, MENU_SETTINGS, 0, "Settings").setIcon(R.drawable.menu_settings);
-		menu.add(0, MENU_EXIT, 0, "Exit").setIcon(R.drawable.menu_exit);
+		menu.add(0, MENU_SWITCH_XBMC, 0, R.string.switch_xbmc).setIcon(R.drawable.menu_switch);
+		SubMenu downloadMenu = menu.addSubMenu(0, MENU_COVER_DOWNLOAD, 0, R.string.download_covers).setIcon(R.drawable.menu_download);
+		menu.add(0, MENU_ABOUT, 0, R.string.about).setIcon(R.drawable.menu_about);
+		menu.add(0, MENU_SETTINGS, 0, R.string.settings).setIcon(R.drawable.menu_settings);
+		menu.add(0, MENU_EXIT, 0, R.string.exit).setIcon(R.drawable.menu_exit);
 //		menu.add(0, MENU_INPUT_TEXT, 0, "Send Text");
 		
-		downloadMenu.add(2, MENU_COVER_DOWNLOAD_MOVIES, 0, "Movie Posters");
-		downloadMenu.add(2, MENU_COVER_DOWNLOAD_MUSIC, 0, "Album Covers");
-		downloadMenu.add(2, MENU_COVER_DOWNLOAD_TVSHOWS, 0, "TV Show Banners");
-		downloadMenu.add(2, MENU_COVER_DOWNLOAD_TVSEASONS, 0, "TV Season Posters");
-		downloadMenu.add(2, MENU_COVER_DOWNLOAD_TVEPISODES, 0, "TV Episode Posters");
-		downloadMenu.add(2, MENU_COVER_DOWNLOAD_ACTORS, 0, "Actor Shots");
-		downloadMenu.add(2, MENU_COVER_PURGE_CACHE, 0, "Clear Cache");
+		downloadMenu.add(2, MENU_COVER_DOWNLOAD_MOVIES, 0, R.string.movie_posters);
+		downloadMenu.add(2, MENU_COVER_DOWNLOAD_MUSIC, 0, R.string.album_covers);
+		downloadMenu.add(2, MENU_COVER_DOWNLOAD_TVSHOWS, 0, R.string.tv_show_banners);
+		downloadMenu.add(2, MENU_COVER_DOWNLOAD_TVSEASONS, 0, R.string.tv_season_posters);
+		downloadMenu.add(2, MENU_COVER_DOWNLOAD_TVEPISODES, 0, R.string.tv_episode_posters);
+		downloadMenu.add(2, MENU_COVER_DOWNLOAD_ACTORS, 0, R.string.actor_shots);
+		downloadMenu.add(2, MENU_COVER_PURGE_CACHE, 0, R.string.clear_cache);
 		
 		return true;
 	}
@@ -168,15 +170,15 @@ public class HomeActivity extends Activity {
 			return true;
 		case MENU_COVER_PURGE_CACHE:
 			AlertDialog.Builder builder = new AlertDialog.Builder(this);
-			builder.setMessage("All downloaded covers, thumbs and posters will be deleted. Are you really sure you want to do this?");
+			builder.setMessage(R.string.confirm_clear_cache);
 			builder.setCancelable(false);
-			builder.setPositiveButton("Absolutely.", new DialogInterface.OnClickListener() {
+			builder.setPositiveButton(R.string.absolutely_confirm_clear_cache, new DialogInterface.OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					CacheManager.get().purgeCache();
-					Toast.makeText(HomeActivity.this, "Cache purged.", Toast.LENGTH_SHORT).show();
+					Toast.makeText(HomeActivity.this, R.string.cache_purged_, Toast.LENGTH_SHORT).show();
 				}
 			});
-			builder.setNegativeButton("Please, no!", new DialogInterface.OnClickListener() {
+			builder.setNegativeButton(R.string.dont_confirm_purge_cache, new DialogInterface.OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					dialog.cancel();
 				}
@@ -209,27 +211,27 @@ public class HomeActivity extends Activity {
 		d.setProgress(0);
 		switch (id) {
 			case MENU_COVER_DOWNLOAD_MOVIES:
-				d.setMessage("Downloading movie posters...");
+				d.setMessage(getString(R.string.downloading_movie_posters_));
 				mProgressThread = mHomeController.new ProgressThread(mHandler, MENU_COVER_DOWNLOAD_MOVIES, d);
 	            break;
 			case MENU_COVER_DOWNLOAD_MUSIC:
-				d.setMessage("Downloading album covers...");
+				d.setMessage(getString(R.string.downloading_album_covers_));
 				mProgressThread = mHomeController.new ProgressThread(mHandler, MENU_COVER_DOWNLOAD_MUSIC, d);
 				break;
 			case MENU_COVER_DOWNLOAD_ACTORS:
-				d.setMessage("Downloading actor thumbs...");
+				d.setMessage(getString(R.string.downloading_actor_thumbs_));
 				mProgressThread = mHomeController.new ProgressThread(mHandler, MENU_COVER_DOWNLOAD_ACTORS, d);
 				break;
 			case MENU_COVER_DOWNLOAD_TVSHOWS:
-				d.setMessage("Downloading TV show banners.");
+				d.setMessage(getString(R.string.downloading_tv_show_banners_));
 				mProgressThread = mHomeController.new ProgressThread(mHandler, MENU_COVER_DOWNLOAD_TVSHOWS, d);
 				break;
 			case MENU_COVER_DOWNLOAD_TVSEASONS:
-				d.setMessage("Downloading TV season posters.");
+				d.setMessage(getString(R.string.downloading_tv_season_posters_));
 				mProgressThread = mHomeController.new ProgressThread(mHandler, MENU_COVER_DOWNLOAD_TVSEASONS, d);
 				break;
 			case MENU_COVER_DOWNLOAD_TVEPISODES:
-				d.setMessage("Downloading TV episode posters.");
+				d.setMessage(getString(R.string.downloading_tv_episode_posters_));
 				mProgressThread = mHomeController.new ProgressThread(mHandler, MENU_COVER_DOWNLOAD_TVEPISODES, d);
 				break;
 			default:
